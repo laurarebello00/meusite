@@ -27,7 +27,17 @@ p{
 }
 .principal{
     background-image: linear-gradient(rgb(236, 232, 232), rgb(197, 135, 93) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-principal{
+    width: 50%;
 }
 .imagem-principal{
     width: 500px;
+}
+.principal-titulo{
+    padding: 30px 0;
 }
